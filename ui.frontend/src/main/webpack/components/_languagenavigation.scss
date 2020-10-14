@@ -1,0 +1,20 @@
+.cmp-languagenavigation {}
+//.cmp-languagenavigation--countrycode-US
+//.cmp-languagenavigation--langcode-en-US
+.cmp-languagenavigation__group {}
+.cmp-languagenavigation__item {}
+.cmp-languagenavigation__item--active {}
+//.cmp-languagenavigation__item--level-0 {}
+.cmp-languagenavigation__item-link {}
+.cmp-languagenavigation__item-title {}
+
+
+.cmp-experiencefragment--header .cmp-languagenavigation {
+	position: absolute;
+    left: 1239px;
+    top: 33px;
+	width: 60px;
+	height: 14px;
+	background: transparent url('../resources/images/Web.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}

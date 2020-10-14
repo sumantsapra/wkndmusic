@@ -1,0 +1,87 @@
+.cmp-form-options {}
+.cmp-form-options__legend {}
+.cmp-form-options__field-label {}
+.cmp-form-options__field {}
+.cmp-form-options__field--checkbox {}
+.cmp-form-options__field--radio {}
+.cmp-form-options__field-description {}
+.cmp-form-options__label {}
+.cmp-form-options__drop-down-field {}
+.cmp-form-options__multi-drop-down-field {}
+.cmp-form-options__help-message {}
+
+.wknd__music__form {
+	margin-left: 170px;
+	.cmp-form-options--radio {
+		border: none;
+		.cmp-form-options__legend {
+			font: $font-style-normal normal $font-weight-bold 14px/18px $font-family-montserrat;
+			letter-spacing: $character-spacing-2-8;
+			color: $color-ffffff;
+			text-align: left;
+			text-transform: uppercase;
+			opacity: 1;
+			margin-bottom: 32px;
+		}
+		.cmp-form-options__field-label {
+			letter-spacing: $character-spacing-0;
+			color: $color-ffffff;
+			text-align: left;
+			
+			&::after {
+				content: "";
+				display: block;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.cmp-form-options--drop-down {
+		border: none;
+		padding-left: 0px;
+		margin-bottom: 24px;
+		
+		.cmp-form-options__label {
+			font: $font-style-normal normal $font-weight-bold 14px/18px $font-family-montserrat;
+			letter-spacing: $character-spacing-2-8;
+			color: $color-ffffff;
+			text-align: left;
+			text-transform: uppercase;
+			opacity: 1;
+		}
+		.cmp-form-options__label::after {
+			content: "";
+			display: block;
+			margin-bottom: 32px;
+		}
+		.cmp-form-options__field--drop-down {
+			border: 1px solid #E6E6E6;
+			width: 334px;
+			height:45px;
+			background: transparent url('../resources/images/down_arrow.png') 304px 18px no-repeat padding-box;
+			background-size: 12px;
+			font: $font-style-normal normal $font-weight-normal 14px/36px $font-family-montserrat;
+			letter-spacing: $character-spacing-0;
+			color: $color-ffffff;
+			text-align: left;
+			border-radius: 8px;
+			padding-left: 16px;
+			-moz-appearance: none;
+   			-webkit-appearance: none;
+			appearance: none;
+		}
+		.cmp-form-options__field--drop-down::focus {
+			background: $color-0e0f13 0% 0% no-repeat padding-box;
+			font: $font-style-normal normal $font-weight-normal 14px/26px $font-family-montserrat;
+			letter-spacing: $character-spacing-0;
+			color: $color-ffffff;
+			border: 1px solid $color-ffffff;
+			border-radius: 6px;
+			opacity: 1;
+		}
+		.cmp-form-options__field--drop-down::after {
+			content: "";
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+}

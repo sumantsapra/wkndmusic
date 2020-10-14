@@ -1,0 +1,30 @@
+.cmp-tabs {}
+.cmp-tabs__tablist {}
+.cmp-tabs__tab {}
+.cmp-tabs__tab--active {}
+.cmp-tabs__tabpanel {}
+.cmp-tabs__tabpanel--active {}
+
+.blue__buton__backgrd {
+	.cmp-tabs {
+		.cmp-tabs__tablist {
+			margin-bottom: 51px;
+			.cmp-tabs__tab {
+				font: $font-style-normal normal $font-weight-normal 14px/18px $font-family-montserrat;
+				letter-spacing: $character-spacing-2-8;
+				color: $color-ffffff;
+				text-align: center;
+				text-transform: uppercase;
+				opacity: 1;
+				border: none;
+				padding: 10px;
+    			margin-right: 76px;
+			}
+			.cmp-tabs__tab--active {
+				font: $font-style-normal normal $font-weight-bold 14px/18px $font-family-montserrat;
+				background: $color-3c55f0 0% 0% no-repeat padding-box;
+				padding:13px;
+			}
+		}
+	}
+}

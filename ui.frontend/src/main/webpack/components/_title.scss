@@ -1,0 +1,48 @@
+.cmp-title {}
+.cmp-title__text {}
+.cmp-title__link {}
+
+.section__title {
+	width: 458px;
+	height: 50px;
+	font: $font-style-normal normal $font-weight-bold 41px/74px $font-family-montserrat;
+	letter-spacing: $character-spacing-0;
+	color: $color-ffffff;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration:none;
+	padding-bottom:144px;
+	
+	//.cmp-title__text::after {
+	&::after {
+		width: 128px;
+		height: 6px;
+		background: $color-3c55f0 0% 0% no-repeat padding-box;
+		opacity: 1;
+		content: "";
+	    position: absolute;
+		margin-top: -55px;
+	}
+}
+
+.page__title {
+	font: $font-style-normal normal $font-weight-bold 21px/74px $font-family-montserrat;
+	letter-spacing: $character-spacing-0;
+	color: $color-ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration:none;
+	opacity: 1;
+	padding-bottom:54px;
+	
+	&::after {
+		width: 128px;
+		height: 6px;
+		background: $color-3c55f0 0% 0% no-repeat padding-box;
+		opacity: 1;
+		content: "";
+	    position: absolute;
+		margin-top: -40px;
+    	margin-left: -50px;
+	}
+}

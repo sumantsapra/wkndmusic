@@ -1,0 +1,51 @@
+.cmp-button {}
+.cmp-button__text {}
+.cmp-button__icon {}
+//.cmp-button__icon--myIcon {}
+
+#topnav--contactus {
+	background: none;
+    color: white;
+    top: 20px;
+    left: 1025px;
+    position: absolute;
+	width: 150px;
+	height: 45px;
+	border: 1px solid $color-ffffff;
+	border-radius: 8px;
+	opacity: 1;
+	
+	span {
+		width: 14px;
+		height: 25px;
+		background: transparent url('../resources/images/material-email.png') 0% 6px no-repeat;
+		opacity: 1;
+		padding-left: 40px;
+	    margin-left: 20px;
+	    margin-top: 10px;
+	    position: absolute;
+	}
+}
+
+.button__full__width {
+	.cmp-button {
+		width: 555px;
+		height: 68px;
+		background: $color-3c55f0 0% 0% no-repeat padding-box;
+		border-radius: 8px;
+		opacity: 1;
+		padding: 15px 0;
+		text-decoration:none;
+		
+		.cmp-button__text {
+			font: $font-style-normal normal $font-weight-bold 19px/23px $font-family-montserrat;
+			color: $color-ffffff;
+			text-align: center;
+			text-transform: uppercase;
+			opacity: 1;
+			letter-spacing: 3.8px;
+			padding:22px 96px;
+			text-decoration:none;
+		}
+	}
+}

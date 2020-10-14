@@ -1,0 +1,45 @@
+
+//== Font
+
+$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+//== Color
+
+// Normal mode
+$color-foreground:      #202020;
+$color-background:      #ECECEC;
+$color-link:            #2020E0;
+
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark:       invert($color-link);
+
+
+$color-ffffff: #FFFFFF;
+$color-3c55f0: #3C55F0;
+$color-0e0f13: #0E0F13;
+$color-9fa3a7: #9FA3A7;
+$color-6c6c6c: #6C6C6C;
+
+/* Font/text values */
+$font-family-montserrat: Montserrat;
+$font-style-normal: normal;
+$font-weight-600: 600px;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-25: 25px;
+$font-size-41: 41px;
+$font-size-60: 60px;
+$character-spacing-0: 0px;
+$character-spacing-2-8: 2.8px;
+$line-spacing-18: 18px;
+$line-spacing-26: 26px;
+$line-spacing-32: 32px;
+$line-spacing-36: 36px;
+$line-spacing-74: 74px;
+$text-transform-uppercase: uppercase;

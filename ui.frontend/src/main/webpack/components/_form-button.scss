@@ -1,0 +1,20 @@
+.cmp-form-button {}
+
+
+.wknd__music__form {
+	.button {
+		.cmp-form-button {
+			width: 492px;
+			height: 48px;
+			background: $color-3c55f0 0% 0% no-repeat padding-box;
+			border-radius: 8px;
+			font: $font-style-normal normal $font-weight-bold 14px/18px $font-family-montserrat;
+			color: $color-ffffff;
+			text-align: center;
+			text-transform: uppercase;
+			opacity: 1;
+			letter-spacing: 2.8px;
+			text-decoration:none;
+		}
+	}
+}

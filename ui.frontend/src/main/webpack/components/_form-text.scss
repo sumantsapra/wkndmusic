@@ -1,0 +1,43 @@
+.cmp-form-text {}
+.cmp-form-text__help-block {}
+.cmp-form-text__textarea {}
+.cmp-form-text__text {}
+
+.wknd__music__form {
+	.text {
+		.cmp-form-text {
+			label {
+				font: $font-style-normal normal $font-weight-bold 14px/18px $font-family-montserrat;
+				letter-spacing: $character-spacing-2-8;
+				color: $color-ffffff;
+				text-align: left;
+				text-transform: uppercase;
+				opacity: 1;
+				margin-top:87px;
+			}
+			label::after {
+				content: "";
+				display: block;
+				margin-bottom: 32px;
+			}
+			.cmp-form-text__text {
+				border: 1px solid #E6E6E6;
+				opacity: 1;
+				font: $font-style-normal normal 600 14px/36px $font-family-montserrat;
+				letter-spacing: $character-spacing-0;
+				color: $color-ffffff;
+				text-align: left;
+				margin-bottom: 24px;
+				background-color: $color-0e0f13;
+				border-radius: 8px;
+				padding-left: 16px;
+    			width: 320px;
+			}
+		}
+		.cmp-form-text::after {
+			content: "";
+			display: block;
+			margin-bottom: 24px;
+		}
+	}
+}
