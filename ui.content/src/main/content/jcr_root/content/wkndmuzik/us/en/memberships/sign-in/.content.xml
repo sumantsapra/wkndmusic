@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-13T20:37:38.190+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wkndmuzik/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sign In"
+        sling:resourceType="wkndmuzik/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wkndmuzik/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container"
+                    layout="responsiveGrid">
+                    <breadcrumb
+                        jcr:created="{Date}2020-10-13T20:37:28.662+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-13T20:37:38.184+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/breadcrumb"
+                        disableShadowing="false"
+                        hideCurrent="false"
+                        showHidden="false"
+                        startLevel="3"/>
+                    <title
+                        cq:styleIds="[1602081678782]"
+                        jcr:created="{Date}2020-10-08T01:40:28.738+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-08T02:02:14.127+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="membership sign up"
+                        sling:resourceType="wkndmuzik/components/title"
+                        type="h1">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </title>
+                    <container
+                        cq:styleIds="[1602157037928]"
+                        jcr:created="{Date}2020-10-08T01:42:46.044+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-08T02:00:33.153+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/form/container"
+                        action="/content/usergenerated/wkndmuzik/us/en/memberships/sign-in/cq-gen1602081766054/"
+                        actionType="foundation/components/form/actions/store"
+                        redirect="/content/wkndmuzik/us/en/memberships/sign-in/thank-you">
+                        <options
+                            jcr:created="{Date}2020-10-08T01:43:03.792+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-08T01:44:59.199+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Membership"
+                            sling:resourceType="wkndmuzik/components/form/options"
+                            name="Membership"
+                            source="local"
+                            type="radio">
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Tier 1 $10/month"
+                                    value="tier1"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="Tier 2 $12/month"
+                                    value="tier2"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Tier 3 $15/month"
+                                    value="tier3"/>
+                            </items>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </options>
+                        <text
+                            jcr:created="{Date}2020-10-08T01:45:27.579+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-09T00:44:26.401+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Contact"
+                            sling:resourceType="wkndmuzik/components/form/text"
+                            helpMessage="John Smith"
+                            name="name"
+                            required="true"
+                            requiredMessage="Please enter your name"
+                            rows="2"
+                            type="text"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </text>
+                        <text_1847264152
+                            jcr:created="{Date}2020-10-08T01:48:44.898+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-09T00:44:56.416+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="email"
+                            sling:resourceType="wkndmuzik/components/form/text"
+                            constraintMessage="Incorrect email formatting"
+                            helpMessage="jsmith@email.com"
+                            hideTitle="true"
+                            name="email"
+                            required="true"
+                            requiredMessage="Please enter your email"
+                            rows="1"
+                            type="email"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </text_1847264152>
+                        <text_1439665832
+                            jcr:created="{Date}2020-10-08T01:51:34.432+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-09T00:45:39.893+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Phone"
+                            sling:resourceType="wkndmuzik/components/form/text"
+                            constraintMessage="Incorrect phone format"
+                            helpMessage="0888-818-888"
+                            hideTitle="true"
+                            name="phone"
+                            rows="2"
+                            type="tel"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </text_1439665832>
+                        <options_1510526445
+                            jcr:created="{Date}2020-10-08T01:53:08.423+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-09T01:00:01.027+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Payment"
+                            sling:resourceType="wkndmuzik/components/form/options"
+                            name="Payment"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    disabled="true"
+                                    selected="true"
+                                    text="Select Payment Type"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="VISA"
+                                    value="visa"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Mastercard"
+                                    value="Mastercard"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Amex"
+                                    value="Amex"/>
+                            </items>
+                        </options_1510526445>
+                        <text_762396649
+                            jcr:created="{Date}2020-10-08T01:54:53.009+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-09T00:46:27.958+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Card Number"
+                            sling:resourceType="wkndmuzik/components/form/text"
+                            constraintMessage="Incorrect card format"
+                            helpMessage="xxxx xxxx xxxx xxxx"
+                            hideTitle="true"
+                            name="cardNumber"
+                            required="true"
+                            requiredMessage="Please enter your card details"
+                            rows="2"
+                            type="number"
+                            usePlaceholder="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </text_762396649>
+                        <button
+                            jcr:created="{Date}2020-10-08T01:57:59.411+11:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-10-08T01:58:21.483+11:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Submit"
+                            sling:resourceType="wkndmuzik/components/form/button"
+                            name="Submit"
+                            type="submit"
+                            value="Submit">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="8"/>
+                            </cq:responsive>
+                        </button>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <thank-you/>
+</jcr:root>

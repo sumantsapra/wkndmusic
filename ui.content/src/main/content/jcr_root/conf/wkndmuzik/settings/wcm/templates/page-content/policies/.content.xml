@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-12-02T17:37:24.544+01:00"
+        cq:lastModified="{Date}2020-10-10T23:09:06.614+11:00"
         cq:lastModifiedBy="admin"
         cq:policy="wkndmuzik/components/page/policy"
         jcr:primaryType="nt:unstructured"
@@ -44,7 +44,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                             <teaser
-                                cq:policy="wkndmuzik/components/teaser/policy_1575031387650"
+                                cq:policy="wkndmuzik/components/teaser/policy_1601810095336"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                             <image
@@ -53,6 +53,22 @@
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                             <download
                                 cq:policy="wkndmuzik/components/download/policy_1575032193319"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <separator
+                                cq:policy="wkndmuzik/components/separator/policy_1601902414454"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <button
+                                cq:policy="wkndmuzik/components/button/policy_1601911116248"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <carousel
+                                cq:policy="wkndmuzik/components/carousel/policy_1601990237337"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <tabs
+                                cq:policy="wkndmuzik/components/tabs/policy_1602079217421"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </components>

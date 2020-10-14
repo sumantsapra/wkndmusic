@@ -1,6 +1,7 @@
-# Sample AEM project template
+# AEM Digital Foundation Blueprint Code Challenge (WKNDMUZIC)
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is a project template for AEM-based applications (version 6.5.6.0 i.e. AEM 6.5 with service pack 6.0). 
+It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
 ## Modules
 
