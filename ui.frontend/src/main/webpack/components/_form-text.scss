@@ -41,3 +41,10 @@
 		}
 	}
 }
+.error__message {
+	font: $font-style-normal normal $font-weight-normal 12px/36px $font-family-montserrat;
+	letter-spacing: $character-spacing-0;
+	text-align: left;
+	color: #FB2657;
+	opacity: 1;
+}
