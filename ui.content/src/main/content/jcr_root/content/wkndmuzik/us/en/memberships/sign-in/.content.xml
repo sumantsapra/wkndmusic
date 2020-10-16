@@ -152,6 +152,7 @@
                             jcr:title="Phone"
                             sling:resourceType="wkndmuzik/components/form/text"
                             constraintMessage="Incorrect phone format"
+							requiredMessage="Please enter your phone number"
                             id="wknd--membership__phone"
                             helpMessage="0888-818-888"
                             hideTitle="true"

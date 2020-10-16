@@ -3,6 +3,12 @@
 This is a project template for AEM-based applications (version 6.5.6.0 i.e. AEM 6.5 with service pack 6.0). 
 It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+After the build main URL's to check
+1) http://localhost:4502/content/wkndmuzik/us/en.html
+2) http://localhost:4502/content/wkndmuzik/us/en/memberships/pricing/learn-more.html
+3) http://localhost:4502/content/wkndmuzik/us/en/memberships/sign-in.html
+4) http://localhost:4502/content/wkndmuzik/us/en/memberships/sign-in/thank-you.html
+
 ## Modules
 
 The main parts of the template are:
